@@ -1,0 +1,44 @@
+{
+  "credentials": { "email": "admin", "password": "password123" },
+  "scenarios": [
+    {
+      "name": "TC1 - Verify Implement user authentication card in To Do and has Feature and High Priority tags",
+      "column": "To Do",
+      "cardTitle": "Implement user authentication",
+      "tags": ["Feature", "High Priority"]
+    },
+    {
+      "name": "TC2 - Verify Fix navigation bug in To Do and has Bug tag",
+      "column": "To Do",
+      "cardTitle": "Fix navigation bug",
+      "tags": ["Bug"]
+    },
+    {
+      "name": "TC3 - Verify Design system updates is in In Progress and has Design tag",
+      "column": "In Progress",
+      "cardTitle": "Design system updates",
+      "tags": ["Design"]
+    },
+    {
+      "name": "TC4 - Verify Push notification system is in To Do and has Feature",
+      "board": "Mobile Application",
+      "column": "To Do",
+      "cardTitle": "Push notification system",
+      "tags": ["Feature"]
+    },
+    {
+      "name": "TC5 - Verify Offline mode is in In Progress and has Feature and High Priority tags",
+      "board": "Mobile Application",
+      "column": "In Progress",
+      "cardTitle": "Offline mode",
+      "tags": ["Feature", "High Priority"]
+    },
+    {
+      "name": "TC6 - Verify App icon design is in Done and has Design tag",
+      "board": "Mobile Application",
+      "column": "Done",
+      "cardTitle": "App icon design",
+      "tags": ["Design"]
+    }
+  ]
+}
